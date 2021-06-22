@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  min-height: 600px;
+  margin-left: 70px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  display: block;
+  max-width: 700px;
+  margin: 0px auto 20px;
+  font-family: Lato, sans-serif;
+  color: #b0925a;
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #b0925a;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  }
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #b0925a;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 4px;
+  color: #b0925a;
+  font-size: 21px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-align: center
+}
+
+p { 
+  display: block;
+  max-width: 750px;
+  margin: 45px auto 60px;
+  font-family: Lato, sans-serif;
+  color: #2e2e2e;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+a { 
+  max-width: 750px;
+  margin: 45px auto 60px;
+  font-family: Lato, sans-serif;
+  color: #2e2e2e;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.divider {
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #b0925a;
+}
+
+.project-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 237px;
+  height: 427px;
+}
+
+.project-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 416px;
+}
+
+.project-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 591px;
+  height: 284px;
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fade-in-delay {
+  animation: fadeInDelay ease 1.5s;
+  -webkit-animation: fadeInDelay ease 1.5s;
+  -moz-animation: fadeInDelay ease 1.5s;
+  -o-animation: fadeInDelay ease 1.5s;
+  -ms-animation: fadeInDelay ease 1.5s;
+}
+
+@keyframes fadeInDelay {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeInDelay {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeInDelay {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeInDelay {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeInDelay {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity:1;
+  }
+}
